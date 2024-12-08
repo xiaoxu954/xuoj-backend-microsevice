@@ -29,5 +29,4 @@ public interface QuestionFeignClient {
     boolean updateQuestion(@RequestBody Question question);
 
 
-
 }

@@ -44,7 +44,6 @@ public interface UserFeignClient {
     /**
      * 获取当前登录用户
      *
-     * @param request
      * @return
      */
     default User getLoginUser(HttpServletRequest request) {

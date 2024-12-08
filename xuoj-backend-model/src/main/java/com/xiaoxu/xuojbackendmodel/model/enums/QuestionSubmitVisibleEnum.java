@@ -42,7 +42,7 @@ public enum QuestionSubmitVisibleEnum {
      * @return
      */
     public static QuestionSubmitVisibleEnum getEnumByValue(Integer value) {
-        if (ObjectUtil.isEmpty( value)) {
+        if (ObjectUtil.isEmpty(value)) {
             return null;
         }
         for (QuestionSubmitVisibleEnum anEnum : QuestionSubmitVisibleEnum.values()) {
